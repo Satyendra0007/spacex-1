@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Delius+Swash+Caps&family=Oregano&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    /* content: ""; */
+    /* background-image: url("https://www.thoughtco.com/thmb/fmaMExKuIvwRzsRkJXMnOGoXD3s=/1321x1321/smart/filters:no_upscale()/GettyImages-200144771-001-5897aee93df78caebc3636ab.jpg"); */
+    background-image: url(538127.jpg);
+    position:absolute;
+    z-index: -1;
+    width: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Averia Serif Libre', cursive;
+}
+.nav_container{
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    align-items: center;
+}
+.logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oregano', cursive;
+}
+.nav_items{
+    width: 82%;
+    display: flex;
+    justify-content: end;
+}
+.nav_items ul{
+    display: flex;
+    font-size: 0.9rem;
+}
+.nav_items ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0rem 2rem;
+}
+.web_info{
+    width: 95vw;
+    height: 25vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: 'Delius Swash Caps', cursive;
+}
+.web_desc{
+    width: 95vw;
+    display: flex;
+    justify-content: end;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+.web_desc2_container{
+    width: 95vw;
+    display: flex;
+    justify-content: end;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  
+}
+.web_desc2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #b6cad5;
+}
+.button{
+    width: 6rem;
+    margin-top: 1.5rem;
+    padding: 0.7rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    background: wheat;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+}
+.mars_info_container{
+    width: 95vw;
+    height: 12rem;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.mars_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.info{
+    padding-left: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.name{
+    font-size: 1.2rem;
+}
+.disc{
+    font-size: 1.5rem;
+}
